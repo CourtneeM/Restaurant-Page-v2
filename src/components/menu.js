@@ -1,7 +1,8 @@
 const menu = () => {
   const menuSection = document.createElement('section');
   const h2 = document.createElement('h2');
-  
+
+  menuSection.id = 'menu-container';
   h2.textContent = 'Menu';
 
   const menuItemsContainer = document.createElement('div');
