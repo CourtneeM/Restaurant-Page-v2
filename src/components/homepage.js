@@ -1,5 +1,6 @@
 const homepage = () => {
   const homeSection = document.createElement('section');
+  homeSection.id = 'homepage-container';
 
   const image = document.createElement('img');
   image.src = '../dist/images/burger.jpg';

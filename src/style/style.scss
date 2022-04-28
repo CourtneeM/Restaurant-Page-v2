@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 30px;
+      font-weight: 600;
+      list-style: none;
+      cursor: pointer;
+
+      &:hover { color: #777; }
+
+      &:last-child { margin-right: 0; }
+    }
+  }
+}
+
+#homepage-container {
+  img {
+    width: 100%;
+  }
+  
+  #text-container {
+    padding: 75px 100px;
+
+    h2 {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    p {
+      width: 70%;
+      margin: 0 auto 30px;
+      line-height: 22px;
+    }
+  }
+}
+
+// #menu-section {
+
+// }
+
+// #contact-section {
+
+// }

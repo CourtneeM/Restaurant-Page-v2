@@ -3,6 +3,8 @@ import homepage from './components/homepage';
 import menu from './components/menu';
 import contact from './components/contact';
 
+import './style/style.scss';
+
 const contentContainer = document.querySelector('#content');
 
 contentContainer.appendChild(header());
